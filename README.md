@@ -188,7 +188,7 @@ WHERE (SELECT COUNT(*)
 ```
 <b> Query for problem 3.25 : Using the university schema, write an SQL query to find the names of those
  departments whose budget is higher than that of Philosophy. List them in alphabetic order. </br>
- ---------------------------------------------------------------------------------------------------------------------------------------</b>
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------</b>
 ```sql
 SELECT department_name
 FROM department
@@ -199,7 +199,7 @@ ORDER BY department_name;
  has retaken a course at least twice (i.e., the student has taken the course at least
  three times), show the course ID and the student’s ID.Please display your results in order
  of course ID and do not display duplicate rows.</br>
- ---------------------------------------------------------------------------------------------------------------------------------------</b>
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------</b>
 ```sql
 SELECT takes.student_id, takes.course_id
 FROM takes
